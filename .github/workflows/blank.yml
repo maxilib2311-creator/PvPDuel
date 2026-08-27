@@ -2,9 +2,10 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "hauptsächlich" ]
+    branches: [ "hauptsächlich", "main" ]
   pull_request:
-    branches: [ "hauptsächlich" ]
+    branches: [ "hauptsächlich", "main" ]
+  workflow_dispatch:
 
 jobs:
   build:
